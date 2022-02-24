@@ -8,9 +8,10 @@
 
 $(document).ready(function () {
 
-    // $(document).on('click', function(){
-    //     document.getElementById("my_audio").play();
-    // });
+    $(document).on('click', function(){
+        document.getElementById("my_audio").play();
+    });
+    
  
     var styles = [
         'background: linear-gradient(#D33106, #571402)'
